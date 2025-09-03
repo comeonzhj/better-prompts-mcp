@@ -132,7 +132,8 @@ LLM_MODEL_NAME=gpt-3.5-turbo
 
 #### 云端存储配置（可选）
 ```bash
-DIFY_BASE_URL=http://dify.dulicode.com/v1
+# 云端调用需要付费版，可自己部署
+DIFY_BASE_URL=https://api.dify.ai/v1
 DIFY_API_KEY=your_dify_api_key
 DIFY_DATASET_ID=your_dataset_id
 DIFY_DOCUMENT_ID=your_document_id
