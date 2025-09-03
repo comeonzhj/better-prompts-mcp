@@ -199,3 +199,7 @@ MIT License
 - [Milvus](https://milvus.io/)
 - [Ollama](https://ollama.ai/)
 - [Dify](https://dify.ai/)
+- [Cursor](http://cursor.com/)
+
+## 构造提示词
+移步 [how-to-prompt](how-to-prompt)查看完整的构造提示词和支持物料。
