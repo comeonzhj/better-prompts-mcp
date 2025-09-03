@@ -1,0 +1,39 @@
+[project]
+name = "mcp-server-better-prompts"
+version = "0.1.0"
+description = "一个用于从文章中萃取理论并构建增强提示的 MCP 服务"
+readme = "使用说明.md"
+requires-python = ">=3.10"
+authors = [{ name = "Better Prompts MCP", email = "admin@example.com" }]
+keywords = ["mcp", "llm", "prompt", "methodology", "knowledge-base"]
+license = { text = "MIT" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "httpx>=0.27.0,<0.29.0",
+    "markdownify>=0.13.1",
+    "mcp>=1.1.3",
+    "pydantic>=2.0.0",
+    "readabilipy>=0.2.0",
+    "requests>=2.32.3",
+    "pymilvus>=2.3.0",
+    "sentence-transformers>=2.2.2",
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "numpy>=1.24.0,<2.0.0",
+]
+
+[project.scripts]
+mcp-server-better-prompts = "mcp_server_better_prompts:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = ["pyright>=1.1.389", "ruff>=0.7.3"]

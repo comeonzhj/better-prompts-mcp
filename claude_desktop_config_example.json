@@ -1,0 +1,21 @@
+{
+    "mcpServers": {
+        "better_prompts": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/ABSOLUTE/PATH/TO/better_prompts",
+                "run",
+                "python",
+                "-m",
+                "mcp_server_better_prompts"
+            ],
+            "env": {
+                "KNOWLEDGE_STORAGE": "local",
+                "LLM_API_BASE": "https://api.openai.com/v1",
+                "LLM_API_KEY": "your_api_key_here",
+                "LLM_MODEL_NAME": "gpt-3.5-turbo"
+            }
+        }
+    }
+}

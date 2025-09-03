@@ -1,0 +1,133 @@
+# 环境变量和配置文件
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env
+
+# API密钥和敏感信息
+config.json
+secrets.json
+credentials.json
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+log/
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+milvus_lite.db
+test_milvus.db
+
+# 缓存和临时文件
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# uv
+uv.lock
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 测试文件
+test_*.py
+*_test.py
+test/
+tests/output/
+
+# 模型和数据文件
+*.model
+*.pkl
+*.bin
+embeddings/
+models/
+
+# 临时生成的文件
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Node.js (如果有前端组件)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 个人笔记和草稿
+notes.md
+draft.md
+TODO.md
+scratch/
